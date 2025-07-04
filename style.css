@@ -1,0 +1,60 @@
+*{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    color: rgb(228, 228, 153);
+    background: rgb(40, 44, 101);
+}
+
+.container {
+   margin: 120px;
+}
+
+.container h1 {
+    color: white;
+}
+.container h1 span {
+    color: rgb(228, 228, 153) ;
+    text-decoration: underline;
+}
+
+.displayPassword {
+    display: flex;
+    align-items: center;
+}
+
+.displayPassword input {
+    width: 250px;
+    height: 42px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(228, 228, 153);
+    font-size: 15px;
+    padding: 10px;
+
+}
+.displayPassword img {
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.generateBtn img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.generateBtn {
+    border: none;
+    outline: none;
+    background: rgb(146, 224, 163);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
